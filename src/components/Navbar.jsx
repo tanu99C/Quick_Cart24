@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <NavbarBs sticky="top" className="bg-white shadow-sm">
       <Container>
-        <Image className="logo" width="115px" src="/logo.png" alt="Logo" />
+       <Image src={process.env.PUBLIC_URL + "/logo.png"} alt="Logo" width={115} />
         <Nav className="me-auto">
           <Nav.Link as={NavLink} to="/">Store</Nav.Link>
           <Nav.Link as={NavLink} to="/admin">Admin</Nav.Link>

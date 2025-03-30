@@ -42,7 +42,7 @@ Follow these simple steps to set up the project on your local machine.
 Clone the repository using Git by running the following command in your terminal:
 
 ```bash
-git clone https://github.com/your-username/quick_cart.git
+git clone https://github.com/tanu99C/Quick_Cart24.git
 ```
 
 Then, navigate into the project directory:

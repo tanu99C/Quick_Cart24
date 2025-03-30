@@ -1,0 +1,7 @@
+// src/custom.scss
+$primary: #ff5733; // Your custom primary color
+$font-family-sans-serif: 'Inter', Arial, sans-serif;
+$border-radius: 18px;
+
+// Import Bootstrap's SCSS
+@import '../node_modules/bootstrap/scss/bootstrap';

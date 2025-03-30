@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Quick Cart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Quick Cart is an e-commerce website built to develop an online shopping environment that is both consumer and seller friendly. The objective is to provide an intuitive and seamless shopping experience, allowing users to browse products, add items to their cart, and securely check out, while giving sellers an efficient platform to manage their inventory.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Developers](#developers)
+- [Getting Started](#getting-started)
+  - [Step 1: Cloning the Repository](#step-1-cloning-the-repository)
+  - [Step 2: Installing Dependencies](#step-2-installing-dependencies)
+    - [General Dependencies](#general-dependencies)
+    - [Additional Dependencies](#additional-dependencies)
+    - [Handling Peer Dependency Issues](#handling-peer-dependency-issues)
+  - [Step 3: Running the Application](#step-3-running-the-application)
+- [Learn More](#learn-more)
 
-### `npm start`
+## Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Quick Cart is designed to create an accessible online shopping platform that caters to both buyers and sellers. It offers a user-friendly interface for browsing products, managing a shopping cart, and performing secure checkouts. The backend integration is managed via Supabase, while the frontend is built with React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Responsive Design:** Built with React and Bootstrap for a user-friendly experience.
+- **Product Catalog:** Detailed product view and a searchable catalog.
+- **Shopping Cart:** Real-time cart updates and an intuitive checkout process.
+- **User Authentication:** Secure sign-in and registration.
+- **Database Integration:** Managed via Supabase for dynamic product and order management.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Developers
 
-### `npm run build`
+- **Tanu99c** – Front-end development using React.
+- **Test_Agent** – Database integration and backend management using Supabase.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these simple steps to set up the project on your local machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Step 1: Cloning the Repository
 
-### `npm run eject`
+Clone the repository using Git by running the following command in your terminal:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/your-username/quick_cart.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Then, navigate into the project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+cd quick_cart
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Step 2: Installing Dependencies
+
+This project requires several packages. You can install them using npm. Run the commands below in your project directory:
+
+#### General Dependencies:
+
+```bash
+npm install react-router-dom react-bootstrap bootstrap react-toastify react-modal @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons react-spinners @supabase/supabase-js react-google-recaptcha react-tooltip react-search-autocomplete react-responsive --legacy-peer-deps
+```
+
+#### Additional Dependencies:
+
+```bash
+npm install @emailjs/browser @fortawesome/fontawesome-svg-core --legacy-peer-deps
+```
+
+#### Handling Peer Dependency Issues:
+
+If you encounter any peer dependency issues during installation, try installing with the `--legacy-peer-deps` flag:
+
+```bash
+npm install --legacy-peer-deps
+```
+
+### Step 3: Running the Application
+
+Once all dependencies are installed, start the development server by running:
+
+```bash
+npm start
+```
+
+Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application. The page will automatically reload when you make changes to the code, and any lint errors will appear in the console.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). For further details on React and the tools used in this project, refer to the following resources:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [React Documentation](https://reactjs.org/)
+- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- [Supabase Documentation](https://supabase.com/docs)

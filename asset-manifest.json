@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Quick_Cart24/static/css/main.8510dba8.css",
+    "main.js": "/Quick_Cart24/static/js/main.691528eb.js",
+    "static/js/952.5aef44c2.chunk.js": "/Quick_Cart24/static/js/952.5aef44c2.chunk.js",
+    "index.html": "/Quick_Cart24/index.html",
+    "main.8510dba8.css.map": "/Quick_Cart24/static/css/main.8510dba8.css.map",
+    "main.691528eb.js.map": "/Quick_Cart24/static/js/main.691528eb.js.map",
+    "952.5aef44c2.chunk.js.map": "/Quick_Cart24/static/js/952.5aef44c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8510dba8.css",
+    "static/js/main.691528eb.js"
+  ]
+}
